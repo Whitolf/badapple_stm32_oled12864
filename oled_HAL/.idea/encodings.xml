@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Core/User/example/oled_draw_ex_example.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/example/oled_draw_ex_example.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/example/test.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/oledlib/draw_api.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/oledlib/oled_basic.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/oledlib/oled_basic.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/oledlib/oled_bmp.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/oledlib/oled_buffer.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/oledlib/oled_color.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/oledlib/oled_config.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/oledlib/oled_config.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/oledlib/oled_debug.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/oledlib/oled_draw.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/oledlib/oled_driver.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/oledlib/oled_driver.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/User/oledlib/oled_font.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" charset="GBK" />
+  </component>
+</project>

@@ -1,0 +1,3 @@
+H:/badapple/oled_HAL/cmake-build-debug/CMakeFiles/oled_ll.elf.dir
+H:/badapple/oled_HAL/cmake-build-debug/CMakeFiles/edit_cache.dir
+H:/badapple/oled_HAL/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="oled_ll"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="H:/badapple/oled_HAL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oled_ll.elf">
+				<Option output="H:/badapple/oled_HAL/cmake-build-debug/oled_ll.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/badapple/oled_HAL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="H:/badapple/oled_HAL/Core/User/example"/>
+					<Add directory="H:/badapple/oled_HAL/Core/User/oledlib"/>
+					<Add directory="H:/badapple/oled_HAL/Core/Inc"/>
+					<Add directory="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="H:/badapple/oled_HAL/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="H:/badapple/oled_HAL/Drivers/CMSIS/Include"/>
+					<Add directory="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="c:\users\whitolf\.iotlink\tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="c:\users\whitolf\.iotlink\tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="c:\users\whitolf\.iotlink\tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="c:\users\whitolf\.iotlink\tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="c:\users\whitolf\.iotlink\tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="c:\users\whitolf\.iotlink\tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 oled_ll.elf"/>
+					<CompileFile command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oled_ll.elf/fast">
+				<Option output="H:/badapple/oled_HAL/cmake-build-debug/oled_ll.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/badapple/oled_HAL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="H:/badapple/oled_HAL/Core/User/example"/>
+					<Add directory="H:/badapple/oled_HAL/Core/User/oledlib"/>
+					<Add directory="H:/badapple/oled_HAL/Core/Inc"/>
+					<Add directory="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="H:/badapple/oled_HAL/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="H:/badapple/oled_HAL/Drivers/CMSIS/Include"/>
+					<Add directory="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="c:\users\whitolf\.iotlink\tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="c:\users\whitolf\.iotlink\tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="c:\users\whitolf\.iotlink\tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="c:\users\whitolf\.iotlink\tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="c:\users\whitolf\.iotlink\tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="c:\users\whitolf\.iotlink\tools\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 oled_ll.elf/fast"/>
+					<CompileFile command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="H:/badapple/oled_HAL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="H:/badapple/oled_HAL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/LLVM/bin/mingw32-make.exe -f &quot;H:/badapple/oled_HAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="H:/badapple/oled_HAL/Core/Inc/dma.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Inc/gpio.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Inc/main.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Inc/spi.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Inc/stm32f1xx_it.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Inc/usart.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Src/dma.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Src/gpio.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Src/main.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Src/spi.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Src/stm32f1xx_it.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Src/syscalls.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Src/sysmem.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Src/system_stm32f1xx.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Src/usart.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/Startup/startup_stm32f103c8tx.s">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/example/draw_api.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/example/oled_draw_ex_example.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/example/oled_draw_ex_example.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/example/physical.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/example/physical.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/example/test.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/example/test.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/draw_api.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_basic.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_basic.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_bmp.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_bmp.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_buffer.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_buffer.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_color.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_color.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_config.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_config.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_debug.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_debug.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_draw.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_draw.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_driver.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_driver.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_font.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Core/User/oledlib/oled_font.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/STM32F103C8TX_FLASH.ld">
+			<Option target="oled_ll.elf"/>
+		</Unit>
+		<Unit filename="H:/badapple/oled_HAL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,21 @@
+E:\apps\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=C:/Users/Whitolf/.iotlink/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=C:/Users/Whitolf/.iotlink/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" H:\badapple\oled_HAL
+-- The C compiler identification is GNU 9.2.1
+-- The CXX compiler identification is GNU 9.2.1
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Users/Whitolf/.iotlink/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+-- Check for working C compiler: C:/Users/Whitolf/.iotlink/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+-- Check for working C compiler: C:/Users/Whitolf/.iotlink/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/Users/Whitolf/.iotlink/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe
+-- Check for working CXX compiler: C:/Users/Whitolf/.iotlink/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: H:/badapple/oled_HAL/cmake-build-debug
